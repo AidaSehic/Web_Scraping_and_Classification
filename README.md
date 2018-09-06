@@ -63,14 +63,11 @@ A number of general purpose classification algorithms are frequently used for cl
       <li><b>Support Vector Machines:</b> Often apply SVMs with a linear kernel to calculate document similarity.</li>
 </ul>
 For this <b>project</b> I have used <b>kNN</b> and <b>SVM</b>. The reason not to go with Naive Bayes is that it incorrectly assumes all terms are independent, even though that might not be the case (Barack and Obama are not independent terms). </li> 
+  </li><br>
+  <li><b>Compare the performance of the kNN and SVM algorithms<b>:
+  To compare the performance of kNN and SVM algorithms, I have used standard classifier evaluation method - I have measured each classifier's mean accuracy in a k-fold cross-validation experiment.
+
+Also, I have used stratisfiedKFold which is a variation of KFold that returns stratified folds. The folds are stratified, meaning that the algorithm attempts to balance the number of instances of each class in each fold. That is important as the labels in this project do not have balanced distribution
   </li>
 </ul>
 
-
-
-
-
-
-
-There are 1408 web pages from which we need to extract the main body text containing the content of each news article, and 1408 category labels
-From the plot we can see that labels do not have balanced distribution, hence we should apply the random under-sampling later on. Oversampling and undersampling in data analysis are techniques used to adjust the class distribution of a data set (i.e. the ratio between the different classes/categories represented).
