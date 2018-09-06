@@ -36,7 +36,7 @@ Analysing the corpus of documents from Part 1 in a *text classification* context
 
 <ul>
   <li><b><u>Document Term Matrix</u></b><br>
-In the bag-of-words model (document-term matrix, each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the corpus vocabulary. 
+In the bag-of-words model (document-term matrix), each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the corpus vocabulary. 
 Bag of words model (document-term matrix) does not preserve sequence in formation, so the order of words in a sentence is lost.<br> 
 Solution: Adjacent tokens<br>
 Term Bigrams - build terms from every pair of adjacent tokens (N-GRAMS - N adjacent tokens)<br>
