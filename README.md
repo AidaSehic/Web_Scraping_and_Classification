@@ -54,7 +54,7 @@ Term Bigrams - build terms from every pair of adjacent tokens (N-GRAMS - N adjac
   <li><b>Text Classification:</b> 
     <ul>
       <li><b>Goal:</b> To learn a model from the training set so that we can accurately predict classes for new unlabeled documents. </li>
-      <li><b>Input:</b> Training set of labelled text documents, annotated with three class labels (categories). </li>
+      <li><b>Input:</b> Training set of labelled text documents, annotated with three class labels (categories): sport/business/technology. </li>
     </ul>
 A number of general purpose classification algorithms are frequently used for classifying text documents:
 <ul>
