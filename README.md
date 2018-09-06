@@ -6,6 +6,16 @@ The objective of this project is to:
 * **pre-process** the corpus, and
 * **evaluate the performance** of **automated classification** of these articles in a **supervised learning context**.
 
+For this project I have used following third-party packages: 
+* NumPy, 
+* Pandas,
+* Scikit-learn, 
+* NLTK, 
+* SciPy, 
+* BeautifulSoup (bs4),
+* Matplotlib
+* Seaborn
+* urllib.requests.
 
 ## Part 1. Data Collection
 Collecting a **labelled news** corpus. Tasks completed:
@@ -21,6 +31,10 @@ Analysing the corpus of documents from Part 1 in a text classification context. 
 3. Build two multi-class classification models using two different classifiers of your choice.
 4. Compare the predictions of the two classification models using an appropriate evaluation strategy. Report and discuss the evaluation results in your notebook.
 Guidelines:
-- For the assignment, only these third-party packages can be used: NumPy, Pandas,
-Scikit-learn, NLTK, SciPy, Requests, BeautifulSoup, Matplotlib, Seaborn.
-- Submit your assignment via the COMP41680 Moodle page. Your submission should clearly state your full name and student ID number. Include your full dataset with your submission. Your submission should be in the form of a single ZIP file containing the IPython notebook and the data.
+
+
+
+
+
+There are 1408 web pages from which we need to extract the main body text containing the content of each news article, and 1408 category labels
+From the plot we can see that labels do not have balanced distribution, hence we should apply the random under-sampling later on. Oversampling and undersampling in data analysis are techniques used to adjust the class distribution of a data set (i.e. the ratio between the different classes/categories represented).
