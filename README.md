@@ -25,13 +25,11 @@ Collecting a **labelled news** corpus. Tasks completed:
 *Note: There are many ways to parse HTML pages in Python. I have used third-party <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>Beautiful Soup package that is useful when working with badly written HTML pages. BeautifulSoup can be used to find all the tags needed and retrieve the text between them.
 
 ## Part 2. Text Classification
-Analysing the corpus of documents from Part 1 in a text classification context. Tasks to be completed:
-1. From the files created in Part 1, load the set of raw documents into your notebook. Ensure that each document has a class label, based on the original category label that you identified.
-2. From the raw documents, create a document-term matrix, using appropriate text pre-processing and term weighting steps.
-3. Build two multi-class classification models using two different classifiers of your choice.
-4. Compare the predictions of the two classification models using an appropriate evaluation strategy. Report and discuss the evaluation results in your notebook.
-Guidelines:
-
+Analysing the corpus of documents from Part 1 in a *text classification* context. Tasks completed:
+1. From the files created in Part 1, **loading** the **set of raw documents** into the **notebook**. Ensuring that **each document** has a **class label**, based on the **original category label**.
+2. From the raw documents, creating a **document-term matrix**, using appropriate **text pre-processing** and **term weighting** steps.
+3. Building two **multi-class classification models** using **two different classifiers**: **k-Nearest Neighbors Classifier** and **Support Vector Machines**.
+4. **Comparing the predictions** of the **two classification models** using an **appropriate evaluation strategy.** 
 
 
 
