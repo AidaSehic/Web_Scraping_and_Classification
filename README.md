@@ -35,13 +35,13 @@ Analysing the corpus of documents from Part 1 in a *text classification* context
 
 
 <ul>
-  <li>**Document Term Matrix:**<br>
-In the **bag-of-words model**, each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the **corpus vocabulary**. 
+  <li><b>Document Term Matrix:</b><br>
+In the bag-of-words model, each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the corpus vocabulary. 
 Bag of words model (document-term matrix) does not preserve sequence in formation, so the order of words in a sentence is lost.<br> 
-**Solution**: Adjacent tokens<br>
-**Term Bigrams** - build terms from every pair of adjacent tokens (N-GRAMS - N adjacent tokens)<br>
-<i> Note: For this **project** I have used **bigrams** and **threegrams**.</i></li>
-  <li>**Text Preprocessing**
+<b>Solution</b>: Adjacent tokens<br>
+<b>Term Bigrams</b> - build terms from every pair of adjacent tokens (N-GRAMS - N adjacent tokens)<br>
+<i> Note: For this <b>project</b> I have used <b>bigrams</b> and <b>threegrams</b>.</i></li>
+  <li><b>Text Preprocessing</b><br>
 A range of steps can be used to process text input files to reduce the number of terms used to represent the text and to improve the resulting bag-of-words model. These include:
 Minimum term length: Exclude terms of length < 2. Scikit-learn does this by default.
 Case conversion: Converting all terms to lowercase. Scikit-learn does this by default.
