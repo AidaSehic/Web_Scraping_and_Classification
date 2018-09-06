@@ -22,7 +22,8 @@ Collecting a **labelled news** corpus. Tasks completed:
 1. Identifing the **URLs** and **category labels** for all news articles listed on the website:   http://mlg.ucd.ie/modules/COMP41680/archive/index.html 
 2. Retrieving **all web pages** corresponding to these **article URLs**. From the web pages, extracting the **main body text** containing the content of each news article. Saving the **body** of each article as **plain text**.
 3. Saving the **category labels** for all articles in a **separate file**. <br>
-<i> Note: There are many ways to parse HTML pages in Python. I have used third-party <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>Beautiful Soup package that is useful when working with badly written HTML pages. BeautifulSoup can be used to find all the tags needed and retrieve the text between them.</i>
+
+<i> Note: There are many ways to parse HTML pages in Python. I have used third-party <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a> package that is useful when working with badly written HTML pages. BeautifulSoup can be used to find all the tags needed and retrieve the text between them.</i>
 
 ## Part 2. Text Classification
 Analysing the corpus of documents from Part 1 in a *text classification* context. Tasks completed:
