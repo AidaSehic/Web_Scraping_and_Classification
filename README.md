@@ -28,6 +28,11 @@ Collecting a **labelled news** corpus. Tasks completed:
 Analysing the corpus of documents from Part 1 in a *text classification* context. Tasks completed:
 1. From the files created in Part 1, **loading** the **set of raw documents** into the **notebook**. Ensuring that **each document** has a **class label**, based on the **original category label**.
 2. From the raw documents, creating a **document-term matrix**, using appropriate **text pre-processing** and **term weighting** steps.
+*Note: **Document Term Matrix** - stacked term vectors
+In the bag-of-words model, each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the corpus vocabulary. Note that the positioning (context) of terms within the original document is lost in this model.
+
+Since each document can be represented as a term vector, we can stack these vectors to create a full document-term matrix. We can easily create this matrix from a list of document strings using Scikit-learn:
+*
 3. Building two **multi-class classification models** using **two different classifiers**: **k-Nearest Neighbors Classifier** and **Support Vector Machines**.
 4. **Comparing the predictions** of the **two classification models** using an **appropriate evaluation strategy.** 
 
