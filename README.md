@@ -60,8 +60,9 @@ A number of general purpose classification algorithms are frequently used for cl
 <ul>
       <li><b>kNN:</b> Standard nearest neighbour classifier, using an appropriate similarity measure (e.g. Cosine).. </li>
       <li><b>Naive Bayes:</b> Classification based on term frequency counts. Incorrectly assumes all terms are independent, but can still be effective in practice. </li>
-      <li><b>Support Vector Machines:</b> Often apply SVMs with a linear kernel to calculate document similarity.
-I will be using kNN and SVM. The reason not to go with Naive Bayes is that it incorrectly assumes all terms are independent, even though that is not the case (Barack Obama are not independent terms). </li> 
+      <li><b>Support Vector Machines:</b> Often apply SVMs with a linear kernel to calculate document similarity.</li>
+</ul>
+I will be using kNN and SVM. The reason not to go with Naive Bayes is that it incorrectly assumes all terms are independent, even though that might not be the case (Barack and Obama are not independent terms). </li> 
   </li>
 </ul>
 
