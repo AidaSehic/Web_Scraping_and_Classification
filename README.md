@@ -42,7 +42,7 @@ Solution: Adjacent tokens<br>
 Term Bigrams - build terms from every pair of adjacent tokens (N-GRAMS - N adjacent tokens)<br>
 <i> Note: For this <b>project</b> I have used <b>bigrams</b> and <b>threegrams</b>.</i></li> <br>
   <li><b><u>Text Preprocessing</u></b><br>
-    A range of steps can be used to process <b>text input files</br> to <b>reduce the number of terms</b> used to <b>represent the text</b> and to <b>improve</b> the resulting <b>bag-of-words model</b>. For this <b>project</b> I have preformed following <b>text preprocessing techniques</b>:<br>
+    A range of steps can be used to process <b>text input files</b> to <b>reduce the number of terms</b> used to <b>represent the text</b> and to <b>improve</b> the resulting <b>bag-of-words model</b>. For this <b>project</b> I have preformed following <b>text preprocessing techniques</b>:<br>
     <ul>
       <li>Minimum term length: Excluding terms of length < 2. </li>
       <li>Case conversion: Converting all terms to lowercase. </li>
