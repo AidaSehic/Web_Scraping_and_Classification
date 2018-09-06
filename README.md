@@ -31,8 +31,11 @@ Analysing the corpus of documents from Part 1 in a *text classification* context
 3. Building two **multi-class classification models** using **two different classifiers**: **k-Nearest Neighbors Classifier** and **Support Vector Machines**.
 4. **Comparing the predictions** of the **two classification models** using an **appropriate evaluation strategy.** 
 
-*Note: **Document Term Matrix** - stacked term vectors: 
-In the bag-of-words model, each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the corpus vocabulary. Note that the positioning (context) of terms within the original document is lost in this model. 
+*Note: **Document Term Matrix** - stacked term vectors: In the bag-of-words model, each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the corpus vocabulary. Note that the positioning (context) of terms within the original document is lost in this model. 
+Solution: Adjacent tokens
+TERM BIGRAMS - build terms from every pair of adjacent tokens (N-GRAMS - N adjacent tokens)
+For this **project** I have used **bigrams** and **threegrams**.
+
 
 *Text Preprocessing
 A range of steps can be used to process text input files to reduce the number of terms used to represent the text and to improve the resulting bag-of-words model. These include:
