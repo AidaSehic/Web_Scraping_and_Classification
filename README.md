@@ -68,6 +68,13 @@ For this <b>project</b> I have used <b>kNN</b> and <b>SVM</b>. The reason not to
   To compare the performance of kNN and SVM algorithms, I have measured each classifier's mean accuracy in a k-fold cross-validation experiment.
 
 Also, I have used stratisfiedKFold which is a variation of KFold that returns stratified folds. The folds are stratified, meaning that the algorithm attempts to balance the number of instances of each class in each fold. That is important as the labels in this project do not have balanced distribution
-  </li>
+  </li> <br>
+  
+  <li><b> Evaluation results:</b><br>
+  <b>Best kNN accuracy: 97.06% <b><br>
+ <b>Best SVM accuracy: 98.51% <b><br>
+SVM performs a bit better than kNN. Also, the best accuracy for both algorithms was achieved when using balanced distribution, and following preprocessing steps: filtering out english stop words, filtering out terms that appear less than 5 times, reducing all the terms to its canonical form (lemmatization). Also all words are lower case and more weights are given to the more "important" terms.
+
+High accuracy is achieved also by using three-grams that solve the problem of losing the order of words in a sentence (2nd best kNN accuracy: 97.03%, 2nd best SVM accuracy: 98.36%)</li>
 </ul>
 
