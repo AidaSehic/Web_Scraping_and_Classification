@@ -31,11 +31,10 @@ Analysing the corpus of documents from Part 1 in a *text classification* context
 3. Building two **multi-class classification models** using **two different classifiers**: **k-Nearest Neighbors Classifier** and **Support Vector Machines**.
 4. **Comparing the predictions** of the **two classification models** using an **appropriate evaluation strategy.** 
 
-*Note: **Document Term Matrix** - stacked term vectors
-In the bag-of-words model, each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the corpus vocabulary. Note that the positioning (context) of terms within the original document is lost in this model.
-*
+* Note: **Document Term Matrix** - stacked term vectors
+In the bag-of-words model, each document is represented by a vector in an m-dimensional coordinate space, where m is number of unique terms across all documents. This set of terms is called the corpus vocabulary. Note that the positioning (context) of terms within the original document is lost in this model. *
 
-*Text Preprocessing
+* Text Preprocessing
 A range of steps can be used to process text input files to reduce the number of terms used to represent the text and to improve the resulting bag-of-words model. These include:
 
 Minimum term length: Exclude terms of length < 2. Scikit-learn does this by default.
@@ -43,7 +42,7 @@ Case conversion: Converting all terms to lowercase. Scikit-learn does this by de
 Stop-word filtering: Remove terms that appear on a pre-defined "blacklist" of terms that are highly frequent and do- not convey useful information.
 Low frequency filtering: Remove terms that appear in very few documents.
 Stemming: Reduce words to their stems (or base forms).
-Lemmatization: reduces a term to its canonical form (more advanced from stemming)*
+Lemmatization: reduces a term to its canonical form (more advanced from stemming) *
 
 There are 1408 web pages from which we need to extract the main body text containing the content of each news article, and 1408 category labels
 From the plot we can see that labels do not have balanced distribution, hence we should apply the random under-sampling later on. Oversampling and undersampling in data analysis are techniques used to adjust the class distribution of a data set (i.e. the ratio between the different classes/categories represented).
