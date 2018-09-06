@@ -9,12 +9,13 @@ The objective of this project is to:
 
 ## Part 1. Data Collection
 Collecting a **labelled news** corpus. Tasks completed:
-1. Identifing the **URLs** and **category labels** for all news articles listed on the website:   http://mlg.ucd.ie/modules/COMP41680/archive/index.html
-2. Retrieve all web pages corresponding to these article URLs. From the web pages, extract the main body text containing the content of each news article. Save the body of each article as plain text.
-3. Save the category labels for all articles in a separate file.
+1. Identifing the **URLs** and **category labels** for all news articles listed on the website:   http://mlg.ucd.ie/modules/COMP41680/archive/index.html 
+2. Retrieving **all web pages** corresponding to these **article URLs**. From the web pages, extracting the **main body text** containing the content of each news article. Saving the **body** of each article as **plain text**.
+3. Saving the **category labels** for all articles in a **separate file**.
+*Note: There are many ways to parse HTML pages in Python. I have used third-party <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>Beautiful Soup package that is useful when working with badly written HTML pages. BeautifulSoup can be used to find all the tags needed and retrieve the text between them.
 
 ## Part 2. Text Classification
-The goal here is to analyse the corpus of documents from Part 1 in a text classification context. Tasks to be completed:
+Analysing the corpus of documents from Part 1 in a text classification context. Tasks to be completed:
 1. From the files created in Part 1, load the set of raw documents into your notebook. Ensure that each document has a class label, based on the original category label that you identified.
 2. From the raw documents, create a document-term matrix, using appropriate text pre-processing and term weighting steps.
 3. Build two multi-class classification models using two different classifiers of your choice.
