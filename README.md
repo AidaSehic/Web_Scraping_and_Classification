@@ -40,7 +40,7 @@ In the bag-of-words model (document-term matrix, each document is represented by
 Bag of words model (document-term matrix) does not preserve sequence in formation, so the order of words in a sentence is lost.<br> 
 Solution: Adjacent tokens<br>
 Term Bigrams - build terms from every pair of adjacent tokens (N-GRAMS - N adjacent tokens)<br>
-<i> Note: For this <b>project</b> I have used <b>bigrams</b> and <b>threegrams</b>.</i></li> <br>
+<i> Note: For this <b>project</b> I have used <b>threegrams</b>.</i></li> <br>
   <li><b><u>Text Preprocessing</u></b><br>
     A range of steps can be used to process <b>text input files</b> to <b>reduce the number of terms</b> used to <b>represent the text</b> and to <b>improve</b> the resulting <b>bag-of-words model</b>. For this <b>project</b> I have preformed following <b>text preprocessing techniques</b>:<br>
     <ul>
@@ -50,8 +50,19 @@ Term Bigrams - build terms from every pair of adjacent tokens (N-GRAMS - N adjac
       <li><b>Low frequency filtering:</b> Removing terms that appear in very few documents. </li>
       <li><b>Lemmatization:</b> Reducing a term to its canonical form (more advanced from stemming that reduces words to their stems (or base forms)) </li>
       <li> <b>Term Weighting:</b> Improving the usefulness of the document-term matrix by giving more weight to the more "important" terms. For this <b>project</b> I have used the most common normalisation - term frequency–inverse document frequency (TF-IDF).</li>
+    </ul> <br>
+  <li><b>Text Classificationusing:</b> 
+    <ul>
+      <li><b>Goal:</b> To learn a model from the training set so that we can accurately predict classes for new unlabeled documents. </li>
+      <li><b>Input:</b> Training set of labelled text documents, annotated with three class labels (categories). </li>
     </ul>
-  <li>using **two different classifiers**: **k-Nearest Neighbors Classifier** and **Support Vector Machines**.</li>
+A number of general purpose classification algorithms are frequently used for classifying text documents:
+<ul>
+      <li><b>kNN:</b> Standard nearest neighbour classifier, using an appropriate similarity measure (e.g. Cosine).. </li>
+      <li><b>Naive Bayes:</b> Classification based on term frequency counts. Incorrectly assumes all terms are independent, but can still be effective in practice. </li>
+      <li><b>Support Vector Machines:</b> Often apply SVMs with a linear kernel to calculate document similarity.
+I will be using kNN and SVM. The reason not to go with Naive Bayes is that it incorrectly assumes all terms are independent, even though that is not the case (Barack Obama are not independent terms). </li> 
+  </li>
 </ul>
 
 
