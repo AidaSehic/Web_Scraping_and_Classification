@@ -51,7 +51,7 @@ Term Bigrams - build terms from every pair of adjacent tokens (N-GRAMS - N adjac
       <li><b>Lemmatization:</b> Reducing a term to its canonical form (more advanced from stemming that reduces words to their stems (or base forms)) </li>
       <li> <b>Term Weighting:</b> Improving the usefulness of the document-term matrix by giving more weight to the more "important" terms. For this <b>project</b> I have used the most common normalisation - term frequency–inverse document frequency (TF-IDF).</li>
     </ul> <br>
-  <li><b>Text Classificationusing:</b> 
+  <li><b>Text Classification:</b> 
     <ul>
       <li><b>Goal:</b> To learn a model from the training set so that we can accurately predict classes for new unlabeled documents. </li>
       <li><b>Input:</b> Training set of labelled text documents, annotated with three class labels (categories). </li>
@@ -62,7 +62,7 @@ A number of general purpose classification algorithms are frequently used for cl
       <li><b>Naive Bayes:</b> Classification based on term frequency counts. Incorrectly assumes all terms are independent, but can still be effective in practice. </li>
       <li><b>Support Vector Machines:</b> Often apply SVMs with a linear kernel to calculate document similarity.</li>
 </ul>
-I will be using kNN and SVM. The reason not to go with Naive Bayes is that it incorrectly assumes all terms are independent, even though that might not be the case (Barack and Obama are not independent terms). </li> 
+For this <b>project</b> I have used <b>kNN</b> and <b>SVM</b>. The reason not to go with Naive Bayes is that it incorrectly assumes all terms are independent, even though that might not be the case (Barack and Obama are not independent terms). </li> 
   </li>
 </ul>
 
