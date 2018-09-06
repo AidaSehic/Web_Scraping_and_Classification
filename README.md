@@ -44,11 +44,11 @@ Term Bigrams - build terms from every pair of adjacent tokens (N-GRAMS - N adjac
   <li><b><u>Text Preprocessing</u></b><br>
     A range of steps can be used to process <b>text input files</br> to <b>reduce the number of terms</b> used to <b>represent the text</b> and to <b>improve</b> the resulting <b>bag-of-words model</b>. For this <b>project</b> I have preformed following <b>text preprocessing techniques</b>:<br>
     <ul>
-      <li><b>Minimum term length:</b> Excluding terms of length < 2. </li>
-      <li><b>Case conversion:</b> Converting all terms to lowercase. </li>
-      <li><b>Stop-word filtering:<b> Removing terms that appear on a pre-defined "blacklist" of terms that are highly frequent and do- not convey useful information.</li>
-      <li><b>Low frequency filtering:</b> Removing terms that appear in very few documents. </li>
-      <li><b>Lemmatization:</b> reduces a term to its canonical form (more advanced from stemming that reduces words to their stems (or base forms)) </li>
+      <li>Minimum term length: Excluding terms of length < 2. </li>
+      <li>Case conversion: Converting all terms to lowercase. </li>
+      <li>Stop-word filtering: Removing terms that appear on a pre-defined "blacklist" of terms that are highly frequent and do- not convey useful information.</li>
+      <li>Low frequency filtering: Removing terms that appear in very few documents. </li>
+      <li>Lemmatization: reduces a term to its canonical form (more advanced from stemming that reduces words to their stems (or base forms)) </li>
     </ul>
   <li>using **two different classifiers**: **k-Nearest Neighbors Classifier** and **Support Vector Machines**.</li>
 </ul>
