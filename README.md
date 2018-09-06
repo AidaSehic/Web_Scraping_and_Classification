@@ -42,14 +42,15 @@ Solution: Adjacent tokens<br>
 Term Bigrams - build terms from every pair of adjacent tokens (N-GRAMS - N adjacent tokens)<br>
 <i> Note: For this <b>project</b> I have used <b>bigrams</b> and <b>threegrams</b>.</i></li> <br>
   <li><b><u>Text Preprocessing</u></b><br>
-A range of steps can be used to process text input files to reduce the number of terms used to represent the text and to improve the resulting bag-of-words model. These include:
-Minimum term length: Exclude terms of length < 2. Scikit-learn does this by default.
-Case conversion: Converting all terms to lowercase. Scikit-learn does this by default.
-Stop-word filtering: Remove terms that appear on a pre-defined "blacklist" of terms that are highly frequent and do- not convey useful information.
-Low frequency filtering: Remove terms that appear in very few documents.
-Stemming: Reduce words to their stems (or base forms).
-Lemmatization: reduces a term to its canonical form (more advanced from stemming) </li>
-  <li>Milk</li>
+    A range of steps can be used to process <b>text input files</br> to <b>reduce the number of terms</b> used to <b>represent the text</b> and to <b>improve</b> the resulting <b>bag-of-words model</b>. For this <b>project</b> I have preformed following <b>text preprocessing techniques</b>:<br>
+    <ul>
+      <li><b>Minimum term length:</b> Excluding terms of length < 2. </li>
+      <li><b>Case conversion:</b> Converting all terms to lowercase. </li>
+      <li><b>Stop-word filtering:<b> Removing terms that appear on a pre-defined "blacklist" of terms that are highly frequent and do- not convey useful information.</li>
+      <li><b>Low frequency filtering:</b> Removing terms that appear in very few documents. </li>
+      <li><b>Lemmatization:</b> reduces a term to its canonical form (more advanced from stemming that reduces words to their stems (or base forms)) </li>
+    </ul>
+  <li>using **two different classifiers**: **k-Nearest Neighbors Classifier** and **Support Vector Machines**.</li>
 </ul>
 
 
